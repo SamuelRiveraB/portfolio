@@ -1,0 +1,225 @@
+@media (min-width : 320px) {
+    .header {
+        font-family: "Barlow";;
+        background-color: #3DBEFF;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 14vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        z-index: 1000;
+    }
+
+    .left-header {
+        height: 100%;
+        padding: 0 0 0 6vw;
+    }
+
+    .logo {
+        font-size: 5vw;
+        color: #FFF;
+        height: 10vw;
+        width: 10vw;
+        margin: 1vw 0;
+        cursor: pointer;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .right-header {
+        background-color: #FFF;
+        position: fixed;
+        top: 20vw;
+        left: 50%;
+        transform: translate(-50%);
+        height: 90vw;
+        width: 86vw;
+    }
+
+    .triangle {
+        position: fixed;
+        top: -6.8%;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 10vw solid #FFF;
+        border-left: 10vw solid transparent;
+      }
+
+    .nav-btn {
+        position: fixed;
+        top: -15vw;
+        right: 0;
+        width: 5vw;
+        height: 4vw;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .header-menus {
+        height: 50vw;
+        display: block;
+        list-style: none;
+        font-size: 6vw;
+        padding: 4vw 0 0 0;
+    }
+
+    .menu {
+        position: relative;
+        display: inline-block;
+        color: hsl(232, 10%, 55%);
+        text-decoration: none;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .header-menus li {
+        margin: 0 0 8vw 4vw;
+        text-align: left;
+    }
+
+    .contactBtn {
+        margin: 1vw 0 0 0;
+        position: relative;
+        font-size: 4vw;
+        font-family: "Fraunces";
+        color: hsl(212, 27%, 19%);
+        background-color: hsl(51, 100%, 49%);
+        border: 0;
+        width: 38vw;
+        height: 14vw;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .contactBtn:hover {
+        color: #FFF;
+        background-color:#65ccff;
+    }
+    .contactBtn:active {
+        background-color: #3DBEFF;
+        position:relative;
+        top:1px;
+    }
+}
+
+
+
+@media (min-aspect-ratio: 5/6) {
+    .header {
+        width: 100vw;
+        height: 7vw;
+    }
+
+    .left-header {
+        height: 100%;
+        padding: 0 0 0 6vw;
+    }
+
+    .logo {
+        font-size: 2.5vw;
+        height: 5vw;
+        width: 5vw;
+        margin: .5vw 0;
+    }
+
+    .right-header {
+        top: 10vw;
+        height: 75vh;
+        width: 86vw;
+    }
+
+    .triangle {
+        top: -8%;
+        border-bottom: 10vw solid #FFF;
+        border-left: 10vw solid transparent;
+      }
+
+    .nav-btn {
+        top: -7.7vw;
+        width: 2.5vw;
+        height: 2vw;
+    }
+
+    .header-menus {
+        height: 20vh;
+        font-size: 8vh;
+        padding: 1vh 0 0 0;
+    }
+
+    .header-menus li {
+        margin: 0 0 4vh 4vh;
+    }
+
+    .contactBtn {
+        margin: 1vw 0 0 0;
+        font-size: 4vh;
+        width: 38vh;
+        height: 14vh;
+    }
+}
+
+@media (min-width : 1200px) {
+    .header {
+        width: 100vw;
+        height: 7vw;
+    }
+
+    .left-header {
+        height: 100%;
+        padding: 0 0 0 3vw;
+    }
+
+    .logo {
+        font-size: 2vw;
+        height: 4vw;
+        width: 4vw;
+        margin: .5vw 0;
+    }
+
+    .right-header {
+        position: relative;
+        top: 0;
+        height: 7vw;
+        width: 50vw;
+        background-color: #3DBEFF;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .header-menus {
+        display: inline-block;
+        height: 5vw;
+        font-size: 1.3vw;
+        padding: 0;
+        margin: .4vw 0;
+    }
+
+    .menu {
+        color: #FFF;
+    }
+
+    .header-menus li {
+        margin: 0 0 4vw 4vw;
+        display: inline-block;
+    }
+
+    .contactBtn {
+        position: relative;
+        font-size: 1.5vw;
+        background-color: #FFF;
+        width: 12vw;
+        height: 4vw;
+    }
+}

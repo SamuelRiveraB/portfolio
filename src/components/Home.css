@@ -1,0 +1,606 @@
+@media (min-width: 320px) {
+    .container {
+        margin: 17vw 0 0 0;
+    }
+    
+    .banner {
+        height: 110vw;
+    }
+    
+    .banner-img {
+        position: relative;
+        top: -30%;
+        width: 100%;
+        height: 130%;
+    }
+    
+    .creatives {
+        font-family: "Fraunces";
+        letter-spacing: 1.5vw;
+        width: 95vw;
+        color: #FFF;
+        font-size:  12vw;
+        position: absolute;
+        left: 50%;
+        top: 6%;
+        transform: translate(-50%);
+    }
+    
+    .arrow {
+        width: 7vw;
+        position: absolute;
+        left: 50%;
+        top: 65vw;
+        transform: translate(-50%);
+    }
+    
+    .first-cont {
+        display: grid;
+        grid-auto-rows: 85vw 120vw;
+        grid-template-columns: repeat(auto-fill, 1fr);
+    }
+    
+    .left-side1 {
+        position: relative;
+        width: 100%;
+    }
+    
+    .left1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-side1 {
+        width: 100%;
+        padding: 8vw 0 0 0;
+        background-color: #FFF;
+    }
+    
+    .transform-title {
+        font-family: "Fraunces";
+        color: hsl(212, 27%, 19%);
+        font-weight: 900;
+        font-size: 9vw;
+        width: 90vw;;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .transform-text {
+        font-family: "Barlow";
+        color: hsl(232, 10%, 55%);
+        font-size: 4.7vw;
+        line-height: 9vw;
+        width: 85vw;
+        margin:  0 0 7vw 0;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .transform-learn {
+        font-family: "Fraunces";
+        color: hsl(212, 27%, 19%);
+        font-size: 4.8vw;
+        font-weight: 700;
+        width: 45vw;
+        position: relative;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .transform-learn::after {
+        content: '';
+        height: 3vw;
+        width: 36vw;
+        position: relative;
+        top: -2vw;
+        left: 50%;
+        transform: translate(-50%);
+        background: rgba(255, 230, 0, 0.3);
+        border-radius: 2vw;
+        display: block;
+        z-index: -1;
+    }
+
+    .transform-learn:hover:after {
+        background: rgba(255, 230, 0, 0.8);
+    }
+
+    .second-cont {
+        display: grid;
+        grid-auto-rows: 85vw 120vw 150vw 150vw;
+        grid-template-columns: repeat(auto-fill, 1fr);
+    }
+    
+    .left-side2 {
+        width: 100%;
+    }
+    
+    .left2 {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .right-side2 {
+        width: 100%;
+        padding: 8vw 0 0 0;
+        background-color: #FFF;
+    }
+    
+    .stand-title {
+        font-family: "Fraunces";
+        color: hsl(212, 27%, 19%);
+        font-weight: 900;
+        font-size: 9vw;
+        width: 90vw;;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .stand-text {
+        font-family: "Barlow";
+        color: hsl(232, 10%, 55%);
+        font-size: 4.7vw;
+        line-height: 9vw;
+        width: 85vw;
+        margin:  0 0 7vw 0;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .stand-learn {
+        font-family: "Fraunces";
+        color: hsl(212, 27%, 19%);
+        font-size: 4.8vw;
+        font-weight: 700;
+        width: 45vw;
+        position: relative;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .stand-learn::after {
+        content: '';
+        height: 3vw;
+        width: 36vw;
+        position: relative;
+        top: -2vw;
+        left: 50%;
+        transform: translate(-50%);
+        background: rgba(255, 0, 0 ,0.2);
+        border-radius: 2vw;
+        display: block;
+        z-index: -1;
+    }
+
+    .stand-learn:hover:after {
+        background: rgba(255, 0, 0 ,0.5);
+    }
+    
+    .left-side3 {
+        width: 100%;
+    }
+    
+    .left3 {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .graphic-title {
+        font-family: "Fraunces";
+        color: hsl(167, 40%, 24%);
+        font-weight: 900;
+        font-size: 7vw;
+        width: 90vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 636vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+    
+    .graphic-text {
+        font-family: "Barlow";
+        color: hsl(167, 40%, 24%);
+        font-size: 4vw;
+        line-height: 7vw;
+        width: 85vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 653vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+    
+    .right-side3 {
+        width: 100%;
+    }
+    
+    .right3 {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .photo-title {
+        font-family: "Fraunces";
+        color: hsl(198, 62%, 26%);
+        font-weight: 900;
+        font-size: 7vw;
+        width: 90vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 786vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+    
+    .photo-text {
+        font-family: "Barlow";
+        color: hsl(198, 62%, 26%);
+        font-size: 4vw;
+        line-height: 7vw;
+        width: 85vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 803vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+
+    .testimonials {
+        font-family: "Fraunces";
+        color: hsl(210, 4%, 67%);
+        font-size: 4.5vw;
+        letter-spacing: 1vw;
+        width: 90vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 860vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+
+    .third-cont {
+        background-color: #FFF;
+        padding: 50vw 0 0 0;
+        display: grid;
+        grid-auto-rows: 110vw;
+        grid-template-columns: 100%;
+    }
+
+    .third-left, .third-center, .third-right {
+        width: 100%;
+    }
+
+    .client1, .client2, .client3 {
+        border-radius: 50%;
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .client1-text, .client2-text, .client3-text {
+        font-family: "Barlow";
+        color: hsl(213, 9%, 39%);
+        font-size: 4.4vw;
+        line-height: 9vw;
+        width: 80vw;
+        position: relative;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%);
+    }
+
+    .client1-name, .client2-name, .client3-name {
+        font-family: "Fraunces";
+        color: hsl(212, 27%, 19%);
+        font-size: 5vw;
+        font-weight: 900;
+        width: 90vw;
+        position: relative;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%);
+    }
+
+    .client1-role, .client2-role, .client3-role {
+        font-family: "Barlow";
+        color: hsl(210, 4%, 67%);
+        font-size: 3.5vw;
+        width: 90vw;
+        position: relative;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%);
+    }
+
+    .fourth-cont {
+        display: grid;
+        grid-auto-rows: 50vw;
+        grid-template-columns: 50% 50%;
+    }
+
+    .fourth1, .fourth2, .fourth3, .fourth4 {
+        width: 100%;
+    }
+
+    .gallery1, .gallery2, .gallery3, .gallery4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer {
+        height: auto;
+        background-color: #90D4C5;
+        padding: 12vw 0 0 0;
+    }
+
+    .sunnyside-foot {
+        font-family: "Barlow";
+        font-weight: 900;
+        color: hsl(167, 40%, 24%);
+        font-size: 10vw;
+        width: 100%;
+        position: relative;
+        left: 50%;
+        top:50%;
+        margin: 0 0 10vw 0;
+        transform: translate(-50%);
+    }
+
+    .link {
+        font-family: "Barlow";
+        color: hsl(167, 40%, 24%);
+        font-size: 4vw;
+        margin: 9.3vw;
+        text-decoration: none;
+    }
+
+    .link:hover {
+        color: #FFF;
+    }
+
+    .icon {
+        width: 6vw;
+        margin: 20vw 3.5vw;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(284deg) brightness(200%) contrast(200%);
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 17vw 0 0 0;
+    }
+    
+    .banner {
+        height: 40vw;
+    }
+    
+    .banner-img {
+        position: relative;
+        top: -50%;
+        width: 100%;
+        height: 150%;
+    }
+    
+    .creatives {
+        font-family: "Fraunces";
+        letter-spacing: 1vw;
+        width: 95vw;
+        font-size:  4vw;
+        top: 16%;
+    }
+    
+    .arrow {
+        width: 3vw;
+        position: absolute;
+        top: 24vw;
+    }
+    
+    .first-cont {
+        grid-auto-rows: 40vw;
+        grid-template-columns: 50% 50%;
+        transform: scaleX(-1);
+    }
+    
+    .left-side1 {
+        position: relative;
+        width: 100%;
+        transform: scaleX(-1);
+    }
+
+    .right-side1 {
+        width: 100%;
+        padding: 5vw 0 0 0;
+        transform: scaleX(-1);
+    }
+    
+    .transform-title {
+        font-size: 3vw;
+        width: 32vw;
+        text-align: left;
+    }
+    
+    .transform-text {
+        font-size: 1.25vw;
+        line-height: 3vw;
+        width: 32vw;
+        margin:  0 0 2.5vw 0;
+        text-align: left;
+    }
+    
+    .transform-learn {
+        font-size: 1.5vw;
+        font-weight: 700;
+        width: 45vw;
+        text-align: left;
+        position: relative;
+        right: 20%;
+    }
+
+    .transform-learn::after {
+        height: .8vw;
+        width: 12vw;
+        top: -.7vw;
+    }
+
+    .second-cont {
+        grid-auto-rows: 40vw;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .right-side2 {
+        padding: 5vw 0 0 0;
+    }
+    
+    .stand-title {
+        font-size: 3vw;
+        width: 32vw;
+        text-align: left;
+    }
+    
+    .stand-text {
+        font-size: 1.25vw;
+        line-height: 3vw;
+        width: 32vw;
+        margin:  0 0 2.5vw 0;
+        text-align: left;
+    }
+    
+    .stand-learn {
+        font-size: 1.5vw;
+        font-weight: 700;
+        width: 45vw;
+        text-align: left;
+        position: relative;
+        right: 20%;
+    }
+
+    .stand-learn::after {
+        height: .8vw;
+        width: 12vw;
+        top: -.7vw;
+    }
+    
+    .graphic-title {
+        font-size: 2.5vw;
+        left: 25%;
+        width: 20vw;
+        margin-top: 160.5vw;
+        transform: translate(-50%);
+    }
+    
+    .graphic-text {
+        font-size: 1.3vw;
+        line-height: 2.5vw;
+        width: 30vw;
+        left: 25%;
+        margin-top: 165.5vw;
+        transform: translate(-50%);
+    }
+    
+    .photo-title {
+        font-size: 2.5vw;
+        left: 75%;
+        width: 20vw;
+        margin-top: 160.5vw;
+        transform: translate(-50%);
+    }
+    
+    .photo-text {
+        font-size: 1.3vw;
+        line-height: 2.5vw;
+        width: 30vw;
+        left: 75%;
+        margin-top: 165.5vw;
+        transform: translate(-50%);
+    }
+
+    .testimonials {
+        font-family: "Fraunces";
+        color: hsl(210, 4%, 67%);
+        font-size: 2vw;
+        letter-spacing: 1vw;
+        width: 90vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 190vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+
+    .third-cont {
+        grid-auto-rows: 30vw;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 23vw 7vw;
+        height: 18vw;
+    }
+
+    .third-left, .third-center, .third-right {
+        width: 25vw;
+    }
+
+    .client1, .client2, .client3 {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .client1-text, .client2-text, .client3-text {
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+        width: 24vw;
+    }
+
+    .client1-name, .client2-name, .client3-name {
+        font-size: 2vw;
+        font-weight: 900;
+        width: 15vw;
+        top: 15%;
+    }
+
+    .client1-role, .client2-role, .client3-role {
+        font-size: 1.4vw;
+        width: 15vw;
+        top: 12%;
+    }
+
+    .fourth-cont {
+        grid-auto-rows: 30vw;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 6vw 0 0 0;
+    }
+
+    .sunnyside-foot {
+        font-size: 4vw;
+        width: 100%;
+        margin: 0 0 5vw 0;
+    }
+
+    .link {
+        font-size: 1.7vw;
+        margin: 3vw;
+        left: 5%;
+    }
+
+    .icon {
+        width: 2vw;
+        margin: 10vw 1vw 6vw 1vw;
+        cursor: pointer;
+    }
+}
