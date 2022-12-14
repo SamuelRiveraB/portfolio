@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import nav from "../images/icon-hamburger.svg";
+//import nav from "../images/icon-hamburger.svg";
 
 function Header() {
     function navBar() {
@@ -44,7 +44,7 @@ function Header() {
                 </div>
                 <div className="right-header">
                     <div className="triangle"></div>
-                    <img src={nav} className="nav-btn" alt="nav" onClick={navBar}/>
+                    <img src="" className="nav-btn" alt="nav" onClick={navBar}/>
                     <ul className="header-menus">
                         <li><a href="/" className="menu">About</a></li>
                         <li><a href="/" className="menu">Services</a></li>
